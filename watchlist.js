@@ -1,4 +1,3 @@
-  
 document.addEventListener('DOMContentLoaded', function() {
     var watchListJSON = localStorage.getItem("watchlist");
     var watchlist = JSON.parse(watchListJSON);
